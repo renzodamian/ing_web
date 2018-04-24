@@ -128,11 +128,15 @@ footer h6{
     color: yellow;
     width: 100%;
   }
-  @media screen and (max-width: 700px) and (min-width: 480px){
-  .tipodetalle {
-    flex-direction: column;
-    width: 100%
-  }
+}
+@media screen and (max-width: 700px) and (min-width: 480px){
+.tipodetalle {
+  flex-direction: column;
+  width: 100%
 
+}
+nav{
+  float: left;
+  margin-left: 2em;
 }
 }
