@@ -15,6 +15,8 @@ header{
   background-attachment: fixed;
   background-size: cover;
   background-color: #999;
+
+
 }
 
 header h1{
@@ -120,10 +122,17 @@ footer{
 footer h6{
   padding: 3em 0;
 }
-@media screen and (max-width: 480px) {
-  .tipodetalle{
+@media screen and (max-width: 700px) and (min-width: 480px){
+  .servicedetalle {
     display: inline-block;
-    background: yellow;
-    width: 90%;
+    color: yellow;
+    width: 100%;
   }
+  @media screen and (max-width: 700px) and (min-width: 480px){
+  .tipodetalle {
+    flex-direction: column;
+    width: 100%
+  }
+
+}
 }
