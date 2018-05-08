@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: cyan;
+  font-family: arial;
+  height: 100%;
+}
+
+header {
+  background: black;
+}
+
+header img {
+  width: 5%;
+  padding: 0 0 0 1em;
+  background: black;
+}
+
+nav {
+  width: 70%;
+  float: right;
+  margin-right: 3em;
+}
+
+nav a {
+  display: inline;
+  color: #ffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+
+.reconocete, .acerca, .quienes {
+  padding: 22em 0em;
+}
+
+.reconocete  {
+  background: url(../img/slider1.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.reconocete h1{
+  background: blue;
+  color: white;
+  padding: 1em;
+  margin: 0 37em 0 37em;
+  text-align: center;
+  border-radius: 20px 0 20px 0;
+}
+
+.acerca {
+  padding-bottom: 0;
+  background: url(../img/acercade.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.acerca h2{
+  text-align: justify;
+  color: white;
+  width: 18.6%;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  margin-left: 3.5em;
+}
+.acerca p {
+  text-align: justify;
+  color: white;
+  width: 18.6%;
+  margin-bottom: 20em;
+  font-size: 1.5em;
+  margin-left: 3.5em;
+}
+
+
+
+.fotos {
+  padding-bottom: 16em;
+  background: url(../img/num_fotos.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.fotos h2 {
+  color: white;
+  vertical-align: bottom;
+}
+
+.quienes {
+  background: url(../img/quienes_somos.jpg);
+  height: 100%;
+  width: 100;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bbb {
+  text-align: justify;
+  color: blue;
+  width: 27%;
+  float: right;
+}
+.reconocetefinal{
+  width: 100%:
+}
+.vermas{
+  background: white;
+  text-align: center;
+}
+
+
+.contactosfooter {
+  background: url(../img/pie-logos.jpg);
+  height: 100%;
+  width: 100;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
