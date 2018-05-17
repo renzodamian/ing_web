@@ -6,20 +6,20 @@
   </head>
   <body>
     <h1>Formularios PHP</h1>
-    <form action=""></form>
-    <input type="text" name="nombres" value=""><br>
-    <input type="text" name="apellido" value=""><br>
-    <input type="number" name="telefono" value=""><br>
-    <input type="email" name="correo" value=""><br>
-    <input type="date" name="fecha_nacimiento" value=""><br>
-    <input type="number" name="cedula" value=""><br>
+    <form method="post" action="internas/procesar.php" >
+    <input type="text" name="nombre" value="" placeholder="Nombre" ><br>
+    <input type="text" name="apellido" value=""placeholder="Apellido" ><br>
+    <input type="number" name="telefono" value=""placeholder="Telefono" ><br>
+    <input type="email" name="correo" value=""placeholder="Correo" ><br>
+    <input type="date" name="fecha_nacimiento" value=""placeholder="Fecha de Nacimiento" ><br>
+    <input type="number" name="cedula" value=""placeholder="Cedula" ><br>
     <select class="" name="tipo">
       <option value="">Profesor</option>
       <option value="">Estudiante</option>
       <option value="">Otro</option>
     </select><br>
-    <button type="button" name="button">Guardar</button>
-
+    <button>Guardar</button>
+</form>
 
   </body>
 </html>

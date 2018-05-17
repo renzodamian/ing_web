@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+  </head>
+  <body>
+    <form class="" action="internas/calcular.php" method="post">
+      <input type="text" name="nombre" value="" placeholder="Nombre" ><br>
+      <input type="text" name="apellido" value=""placeholder="Apellido" ><br>
+      <input type="number" name="telefono" value=""placeholder="Telefono" ><br>
+      <input type="email" name="correo" value=""placeholder="Correo" ><br>
+      <input type="date" name="fecha_nacimiento" value=""placeholder="Fecha de Nacimiento" ><br>
+      <input type="number" name="cedula" value=""placeholder="Cedula" ><br>
+      <select class="" name="tipo">
+        <option>Selecione tipo partcipante</option>
+        <option value="1">Profesor</option>
+        <option value="2">Estudiante</option>
+        <option value="3">Otro</option>
+      </select><br>
+
+      <select class="" name="curso">
+        <option >Seleccione un curso a participar</option>
+        <option value="1">JAVA</option>
+        <option value="2">ANDROID</option>
+        <option value="3">PHP</option>
+      </select><br>
+      <input type="checkbox" name="taller1" value="1">Taller html<br>
+      <input type="checkbox" name="taller2" value="2">Taller CSS<br>
+      <input type="checkbox" name="taller3" value="3">Taller datos<br>
+      <button>Registrar</button>
+    </form>
+
+  </body>
+</html>
