@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header,body{
+  background: url(../img/fondo.jpg);
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+
+}
+header h1{
+  color: white;
+  margin: 1em;
+}
+form{
+  width: 69%;
+  margin: auto;
+  background:  #15b0e2;
+  border-radius: 7px;
+
+}
+.contenedor{
+  padding: 10px;
+  margin: 2px;
+}
+input{
+  margin: 8px;
+  padding: 10px;
+}
+.input48{
+  width: 45.5%;
+}
+.input100{
+  width: 95%;
+}
+.tipo{
+  margin-top: 2em;
+  margin-left: 28em;
+  margin-bottom: 2em;
+  width: 15em;
+
+}
+.curso{
+  margin-top: 2em;
+  margin-left: 28em;
+  margin-bottom: 2em;
+}
+.taller{
+  text-align:center;
+  padding-top: 1em;
+  margin: 0.75em;
+}
+button{
+  background: linear-gradient(to right, rgba(43, 161, 237,0), rgba(43, 161, 237,1));
+
+  width: 30%;
+  padding: 1em 1em;
+  margin-top: 1em;
+  margin-left: 26em;
+
+}
